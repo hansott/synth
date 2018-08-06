@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A stupidly simple synthesizer</title>
+    <link rel="stylesheet" href="synth.css">
+</head>
+<body>
+    <div id="piano" class="piano">
+        <button data-note="c" class="c white"></button>
+        <button data-note="d" class="d white"></button>
+        <button data-note="e" class="e white"></button>
+        <button data-note="f" class="f white"></button>
+        <button data-note="g" class="g white"></button>
+        <button data-note="a" class="a white"></button>
+        <button data-note="b" class="b white"></button>
+        <button data-note="c#" class="c-sharp black"></button>
+        <button data-note="d#" class="d-sharp black"></button>
+        <button data-note="f#" class="f-sharp black"></button>
+        <button data-note="g#" class="g-sharp black"></button>
+        <button data-note="a#" class="a-sharp black"></button>
+    </div>
+
+    <label for="waveform">Waveform</label>
+    <select id="waveform" style="margin-top: 210px;">
+        <option value="sine" selected>Sine</option>
+        <option value="square">Square</option>
+        <option value="sawtooth">Sawtooth</option>
+        <option value="triangle">Triangle</option>
+    </select>
+
+    <script src="synth.js"></script>
+</body>
+</html>

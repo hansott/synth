@@ -1,0 +1,64 @@
+.piano {
+    position: relative;
+}
+
+.piano button {
+    position: absolute;
+    width: 50px;
+    height: 200px;
+}
+
+.piano .c-sharp {
+    left: 35px;
+}
+
+.piano .d {
+    left: 50px;
+}
+
+.piano .d-sharp {
+    left: 85px;
+}
+
+.piano .e {
+    left: 100px;
+}
+
+.piano .f {
+    left: 150px;
+}
+
+.piano .f-sharp {
+    left: 185px;
+}
+
+.piano .g {
+    left: 200px;
+}
+
+.piano .g-sharp {
+    left: 235px;
+}
+
+.piano .a {
+    left: 250px;
+}
+
+.piano .a-sharp {
+    left: 285px;
+}
+
+.piano .b {
+    left: 300px;
+}
+
+.piano button.white {
+    background: white;
+}
+
+.piano button.black {
+    background: black;
+    height: 150px;
+    width: 30px;
+    top: 0;
+}
